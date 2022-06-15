@@ -1,0 +1,108 @@
+/* основний колір текста #757575 */
+/* вторичний колір текста #212121 */
+/* білий #FFFFFF */
+/* герой і футер background: #2F303A */
+/* основний background: #E5E5E5 */
+/* команда background: #F5F4FA */
+/* хедер background: #FFFFFF*/
+
+:root {
+    --primery-text-color: #757575;
+    --title-text-coloc: #212121;
+    --accent-color: #2196F3;
+    --primery-white-coloc: #FFFFFF;
+    --titel-background-color: #2F303A;
+    --secondary-background-color: #F5F4FA;
+    --body-background-color: #E5E5E5;
+    --black: #000000;
+    --main-font: Roboto;
+    --secondary-font: Raleway;
+}
+
+
+body {
+    background-color: var(--body-background-color);
+    color: var(--primery-text-color);
+    font-family: var(--main-font), sans-serif;
+    font-size: 14px;
+}
+
+/* хедер*/
+
+.header>.logo {
+    display: flex;
+    color: var(--accent-color);
+    font-family: var(--secondary-font), sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.header .logo-title {
+    color: var(--black);
+}
+
+.header {
+    background-color: var(--primery-white-coloc);
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-text-coloc);
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.header-nav .link.current {
+    color: var(--accent-color);
+}
+
+.header-contacts {
+    color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.header-contacts:hover {
+    color: var(--accent-color);
+}
+
+/*футер*/
+
+.footer>.logo {
+    font-family: var(--secondary-font), sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+
+.footer .logo-title {
+    color: var(--primery-white-coloc);
+}
+
+.footer {
+    color: var(--primery-white-coloc);
+    background-color: var(--titel-background-color);
+    font-style: normal;
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts> .footer-contacts{
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+

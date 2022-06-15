@@ -1,0 +1,121 @@
+
+.list{
+    list-style: none;
+}
+
+.site-header {
+    background-color: var(--primery-white-coloc);
+}
+
+
+/*герой*/
+
+.hero {
+    background-color: var(--titel-background-color);
+}
+
+.hero.title{
+    color: var(--primery-white-coloc);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    font-family: var(--main-font), sans-serif;
+    color: var(--primery-white-coloc);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #188CE8;
+}
+
+.button-secondary.current{
+background-color: var(--accent-color);
+color: var(--primery-white-coloc);
+}
+
+/* переваги*/
+
+.title{
+    color: var(--title-text-coloc);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/* about*/
+
+.section-title{
+    color: var(--title-text-coloc);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*команда*/
+
+.title-smaller {
+    color: var(--title-text-coloc);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-list{
+    background-color: var(--secondary-background-color);
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/* Портфоліо*/
+
+.portfolio {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+/* кнопки */
+
+.button-secondary {
+    font-family: var(--main-font), sans-serif;
+    color: var(--title-text-coloc);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: var(--secondary-background-color);
+
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--primery-white-coloc);
+    background-color: var(--accent-color);
+}
