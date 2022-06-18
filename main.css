@@ -13,7 +13,7 @@
     --primery-white-coloc: #FFFFFF;
     --titel-background-color: #2F303A;
     --secondary-background-color: #F5F4FA;
-    --body-background-color: #E5E5E5;
+    --body-background-color: #09090901;
     --black: #000000;
     --main-font: Roboto;
     --secondary-font: Raleway;
@@ -25,12 +25,45 @@ body {
     color: var(--primery-text-color);
     font-family: var(--main-font), sans-serif;
     font-size: 14px;
+    line-height: 1.14;
 }
+
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    outline: 1px solid red;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+    }
 
 /* хедер*/
 
-.header>.logo {
+.header-container {
     display: flex;
+    align-items: center;
+}
+        
+.header .logo {
+    margin-right: 93px;
     color: var(--accent-color);
     font-family: var(--secondary-font), sans-serif;
     font-weight: 700;
@@ -47,11 +80,19 @@ body {
     background-color: var(--primery-white-coloc);
 }
 
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-item:not(:last-child) {
+margin-right: 50px;
+}
+
 .link {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
     color: var(--title-text-coloc);
 }
 
@@ -62,19 +103,29 @@ body {
 
 .header-nav .link.current {
     color: var(--accent-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 
 .header-contacts {
+    display: flex;
+    margin-left: auto;
+}
+
+.header-contact {
     color: var(--primery-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
 }
 
-.header-contacts:hover {
+.header-contact:hover {
     color: var(--accent-color);
 }
 
+.mail {
+    margin-right: 50px;
+}
 /*футер*/
 
 .footer>.logo {
