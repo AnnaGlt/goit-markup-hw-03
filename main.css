@@ -13,7 +13,6 @@
     --primery-white-coloc: #FFFFFF;
     --titel-background-color: #2F303A;
     --secondary-background-color: #F5F4FA;
-    --body-background-color: #09090901;
     --black: #000000;
     --main-font: Roboto;
     --secondary-font: Raleway;
@@ -21,7 +20,7 @@
 
 
 body {
-    background-color: var(--body-background-color);
+    background-color: var(--primery-white-coloc);
     color: var(--primery-text-color);
     font-family: var(--main-font), sans-serif;
     font-size: 14px;
@@ -34,8 +33,6 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
-    outline: 1px solid red;
 }
 
 h1, h2, h3, p {
@@ -56,6 +53,10 @@ img{
     }
 
 /* хедер*/
+
+.header{
+    border-bottom: 1px solid #ECECEC;
+}
 
 .header-container {
     display: flex;
@@ -128,7 +129,17 @@ margin-right: 50px;
 }
 /*футер*/
 
-.footer>.logo {
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: var(--primery-white-coloc);
+    background-color: var(--titel-background-color);
+    font-style: normal;
+}
+
+.footer .logo {
+    display: block;
+    margin-bottom: 20px;
     font-family: var(--secondary-font), sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -140,20 +151,21 @@ margin-right: 50px;
     color: var(--primery-white-coloc);
 }
 
-.footer {
-    color: var(--primery-white-coloc);
-    background-color: var(--titel-background-color);
-    font-style: normal;
-}
-
 address {
     font-style: normal;
 }
+.map {
+    margin-bottom: 9px;
+}
 
-.contacts> .footer-contacts{
+.contacts .footer-contacts{
+    display: block;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
+.mail-footer {
+    margin-bottom: 9px;
+}
 
