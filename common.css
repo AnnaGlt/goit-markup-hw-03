@@ -27,7 +27,7 @@
     font-family: var(--main-font), sans-serif;
     color: var(--primery-white-coloc);
     background-color: var(--accent-color);
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 16px;
     letter-spacing: 6%;
     line-height: 1.88;
@@ -44,7 +44,7 @@
 .button-secondary {
     font-family: var(--main-font), sans-serif;
     color: var(--title-text-coloc);
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
@@ -112,7 +112,7 @@ color: var(--primery-white-coloc);
 .section-title{
     margin-bottom: 50px;
     color: var(--title-text-coloc);
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -151,7 +151,7 @@ color: var(--primery-white-coloc);
 .title-smaller {
     margin-bottom: 10px;
     color: var(--title-text-coloc);
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -209,7 +209,7 @@ color: var(--primery-white-coloc);
     padding-top: 20px;
     margin-bottom: 4px;
     color: var(--title-text-coloc);
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 18px;
     letter-spacing: 6%;
 }
@@ -217,7 +217,7 @@ color: var(--primery-white-coloc);
 .border-portfolio {
     border: 1px solid #EEEEEE;
     border-top: 0;
-    padding-bottom: 20px;
+    padding: 20px 24px;
 }
 
 .pic {
@@ -227,6 +227,7 @@ color: var(--primery-white-coloc);
 .text-portfolio{
     font-family: var(--main-font);
     Font-size: 16px;
+    font-weight: 400px;
     Line-height: 1.8;
     Letter-spacing: 3%;
 }
