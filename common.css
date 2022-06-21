@@ -15,6 +15,7 @@
     padding: 0;
     color: var(--primery-white-coloc);
     font-size: 44px;
+    font-weight: 900px;
     line-height: 1.36;
     letter-spacing: 0.06em;
 }
@@ -28,6 +29,7 @@
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
+    letter-spacing: 6%;
     line-height: 1.88;
     border-radius: 4px;
     border: 1px solid transparent;
@@ -67,9 +69,13 @@ color: var(--primery-white-coloc);
 
 /* переваги*/
 
+.benefits-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .benefits.list {
     display: flex;
-    padding-top: 94px;
 }
 
 .benefit-item:not(:last-child) {
@@ -85,13 +91,25 @@ color: var(--primery-white-coloc);
     color: var(--title-text-coloc);
     font-weight: 700;
     font-size: 14px;
+    font-family: var(--main-font);
+    letter-spacing: 3%;
     text-transform: uppercase;
+}
+
+.text-benefits {
+    font-family: var(--main-font);
+    Font-size: 16px;
+    Line-height: 1.71;
+    Letter-spacing: 3%;
 }
 
 /* about*/
 
+.section-about {
+    padding-bottom: 94px;
+}
+
 .section-title{
-    padding-top: 94px;
     margin-bottom: 50px;
     color: var(--title-text-coloc);
     font-weight: 700;
@@ -104,7 +122,6 @@ color: var(--primery-white-coloc);
 .services.list {
     display: flex;
     margin-top: 50px;
-    padding-bottom: 94px;
 }
 
 .about:not(:last-child){
@@ -114,23 +131,24 @@ color: var(--primery-white-coloc);
 /*команда*/
 
 .section.team-list {
+    padding: 94px 0;
     background-color: var(--secondary-background-color);
 }
 
 .team.list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
 }
 
 .team-pic {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--primery-white-coloc);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .title-smaller {
-    padding-top: 30px;
     margin-bottom: 10px;
     color: var(--title-text-coloc);
     font-weight: 500;
@@ -144,10 +162,6 @@ color: var(--primery-white-coloc);
     margin-right: 30px;
 }
 
-.team-item {
-    padding-bottom: 30px;
-}
-
 .text {
     font-size: 16px;
     line-height: 1.19;
@@ -158,10 +172,14 @@ color: var(--primery-white-coloc);
 
 /* Портфоліо*/
 
+.portfolio-section {
+    padding-top: 100px;
+    padding-bottom: 94px;
+}
+
 .portfolio-list {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
     margin-bottom: 56px;
 }
 
@@ -172,7 +190,6 @@ color: var(--primery-white-coloc);
 .project {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
     margin: -15px;
 }
 
@@ -194,6 +211,7 @@ color: var(--primery-white-coloc);
     color: var(--title-text-coloc);
     font-weight: 700;
     font-size: 18px;
+    letter-spacing: 6%;
 }
 
 .border-portfolio {
@@ -204,4 +222,11 @@ color: var(--primery-white-coloc);
 
 .pic {
     display: block;
+}
+
+.text-portfolio{
+    font-family: var(--main-font);
+    Font-size: 16px;
+    Line-height: 1.8;
+    Letter-spacing: 3%;
 }
