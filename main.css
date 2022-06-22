@@ -65,7 +65,7 @@ img{
     margin-right: 93px;
     color: var(--accent-color);
     font-family: var(--secondary-font), sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -92,10 +92,10 @@ margin-right: 50px;
 
 .link {
     text-decoration: none;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 14px;
     color: var(--title-text-coloc);
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .header-nav .link:hover,
@@ -115,9 +115,9 @@ margin-right: 50px;
 
 .header-contact {
     color: var(--primery-text-color);
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 14px;
-    Letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .header-contact:hover {
@@ -141,7 +141,7 @@ margin-right: 50px;
     display: block;
     margin-bottom: 20px;
     font-family: var(--secondary-font), sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: var(--accent-color);
